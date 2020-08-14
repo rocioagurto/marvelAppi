@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(160, 0, 0);
+    
+}
+
+.row{
+    justify-content: center;
+}
+.hero{
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+
+.hero-img:hover .description {
+    top: 0;
+
+}
+.hero-img {
+    text-align: center;
+    padding-right: 5px;
+}
+.imagen {
+  
+    width: 100%;
+    height: 100%;
+  
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.685);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+  
+    padding: 1em;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.card-title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 570.98px) { 
+    .row {
+        width: 18rem;
+        margin: 0 auto;
+    }
+ }
